@@ -1,0 +1,17 @@
+#View Reslover Configuration
+spring:
+  mvc:
+    view:
+      prefix: /Pages/      suffix: .jsp
+   
+   
+   
+#Server port Configuration
+server:  port: 9090
+
+#application Properties
+app:
+  props:
+     RegSucc: Registrion Successfully Completed
+     RegFail: Registration is failed
+
